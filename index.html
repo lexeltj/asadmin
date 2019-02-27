@@ -4,10 +4,12 @@
 <title>Arma Server Admin - Control Panel</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="tabs.js"></script>
+<script src="func1.js"></script>
 
 </head>
 
 <body>
+
 
   <!-- Tab links -->
   <div class="tab">
@@ -25,10 +27,7 @@
   <div id="HC1" class="tabcontent">
     <h3>Console Output</h3>
 
-    <script type="text/javascript" language="JavaScript">
-    var daten = "hallo\n";
-    setInterval(function(){ document.show.board.value += daten; }, 3000);
-    </script>
+
     <p>
     <form name="show">
        <textarea name="board" cols=50 rows=10 wrap="virtual"></textarea>
@@ -40,6 +39,8 @@
     <h3>Coming Soon...</h3>
     <p>We are working hard...</p>
   </div>
+
+<!--  <iframe id="frmFile" src="status_hc1.txt" onload="LoadFile();" style="display: none;"></iframe>-->
 
 </body>
 </html>
