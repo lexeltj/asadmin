@@ -23,8 +23,17 @@
   </div>
 
   <div id="HC1" class="tabcontent">
-    <h3>Paris</h3>
-    <p>Paris is the capital of France.</p>
+    <h3>Console Output</h3>
+
+    <script type="text/javascript" language="JavaScript">
+    var daten = "hallo\n";
+    setInterval(function(){ document.show.board.value += daten; }, 3000);
+    </script>
+    <p>
+    <form name="show">
+       <textarea name="board" cols=50 rows=10 wrap="virtual"></textarea>
+    </form>
+    </p>
   </div>
 
   <div id="HC2" class="tabcontent">
