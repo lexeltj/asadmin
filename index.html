@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arma Server Admin - Control Panel</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="tabs.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Tab links -->
+  <div class="tab">
+    <button class="tablinks" onclick="openTap(event, 'Public')">Public Server</button>
+    <button class="tablinks" onclick="openTap(event, 'HC1')">Headless Client 1</button>
+    <button class="tablinks" onclick="openTap(event, 'HC2')">Headless Client 2</button>
+  </div>
+
+  <!-- Tab content -->
+  <div id="Public" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+  </div>
+
+  <div id="HC1" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
+
+  <div id="HC2" class="tabcontent">
+    <h3>Coming Soon...</h3>
+    <p>We are working hard...</p>
+  </div>
+
+</body>
+</html>
